@@ -1,0 +1,93 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: #61122f;
+  font-family: 'Oxygen', sans-serif;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: gray;
+  border-radius: 0;
+ 
+  border: 0;
+}
+.navbar-header h1 { /* Restaurant name */
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+ 
+  line-height: .75;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+#nav-list a {
+  color: black;
+  text-align: center;
+  background-color: #fff;
+  border: 1px solid #000;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+  color: #000;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  border-style: none;
+
+}
+@media (min-width: 992px) {
+  #box1, #box2, #box3 {
+    float: left;
+    width: 32%;
+  }
+}
+@media (min-width: 768px)and (max-width: 991px) {
+  #box1, #box2 {
+    float: left;
+    width: 48%;
+  }
+  #box3 {
+    float: left;
+    width: 99%;
+  }
+  
+}
+@media (max-width: 767px) {
+  #box1, #box2, #box3 {
+    float: left;
+    width: 99%;
+  }
+}
+h1 {
+  text-align: center;
+  margin: 30px;
+}
+div #box1, #box2, #box3 {
+  display: block;
+  background-color: #c8c8c8;
+  border: 1px solid black;
+  margin: 5px;
+}
+h2 {
+  text-align: center;
+} 
+
+p {
+  clear: both;
+}
